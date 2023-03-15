@@ -1,0 +1,78 @@
+html{
+
+    font-size: 10px;
+}
+
+body{
+    background-color: #001124;
+    color:white;
+    font-family:sans-serif;
+    margin:0;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+}
+
+a{
+    color:#499FFE;
+}
+
+h1{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 6.2rem;
+}
+
+/* form>*{
+    display: block;
+} */
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+label{
+    text-transform: capitalize;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    width:100vw;
+}
+
+.container > .img {
+    flex-basis: 35%;
+    flex-grow:1;
+}
+
+.container > .form{
+    margin: 3rem 15rem;
+}
+
+img{
+    width: 100%;
+    max-height: 80vh;
+}
+
+input{
+    width:36rem;
+    height: 4.3rem;
+    margin-bottom:1rem;
+}
+
+input[type='button'],[type='submit']{
+    color:white;
+    background-color: #015FC7;
+    font-weight: 700;
+    width: 18rem;
+}
+
+input[type='submit']{
+    margin: 2rem;
+    align-self: center;   
+}
