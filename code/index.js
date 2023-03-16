@@ -1,5 +1,4 @@
-import {createPage, createLoginForm, createRegistrationForm} from "./functions.js"
-
+import {createPage, createLoginForm, createRegistrationForm} from "./constructor.js"
 
 if ((!localStorage.isLogin) &&
     !(document.location.pathname.includes('/login.html') ||

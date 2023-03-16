@@ -39,7 +39,6 @@ label{
 
 .container{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     width:100vw;
@@ -47,7 +46,6 @@ label{
 
 .container > .img {
     flex-basis: 35%;
-    flex-grow:1;
 }
 
 .container > .form{
@@ -75,4 +73,19 @@ input[type='button'],[type='submit']{
 input[type='submit']{
     margin: 2rem;
     align-self: center;   
+}
+
+.error{
+    border: red solid 2px;
+}
+
+.warning{
+    color: #ffffff;
+    background: #ff0000ad;
+    margin: 0 0 1rem;
+    padding: 0 1rem;
+}
+
+.hide{
+    display:none;
 }
