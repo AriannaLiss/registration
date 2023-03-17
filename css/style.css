@@ -24,10 +24,6 @@ h1{
     line-height: 6.2rem;
 }
 
-/* form>*{
-    display: block;
-} */
-
 form{
     display:flex;
     flex-direction: column;
